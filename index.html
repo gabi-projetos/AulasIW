@@ -1,76 +1,56 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
+<html lang="pt-br"><head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="widt=device-width,initial-scale=1.0">
 	<title>Primeiro Site Html</title>
-	<style type="text/css">
-
-        
-        body{
-        	background-color: #8A2BE2;
-
-
-
-        }
-        
-        
-        h1{
-            text-align: center;
-            color: #fff;
-            font-weight: bolder;
-        }
-
-        
-	    p{
-
-         
-            color: #fff;
-            font-weight: bolder;
-            font-size: 20px;
-            text-align: justify;
-          
-	    }
-
-        
-        ul li{
-
-             text-decoration: underline;
-             color: #fff;
-             font-weight: bolder;
-
-
-        }
-
-
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.png">
 
 </head>
 <body>
-	<h1>Introdução do HTML</h1>
-	    <p>HTML é a linguagem de marcação padrão para criar paginas da web.</p>
-	<h2>O que é HTML?</h2>
-        <ul>
-            <li>HTML significa Hyper Text Markup Language</li>
-            <li>HTML é a linguagem de marcação padrão para a criação de páginas da web</li>
-            <li>HTML descreve a estrutura de uma página da web</li>
-            <li>HTML consiste em uma série de elementos</li>
-            <li>Os elementos HTML informam ao navegador como exibir o conteúdo</li>
-            <li>Os elementos HTML identificam partes de conteúdo como "isto é um título", "isto é um parágrafo", "isto é um link", etc.</li>
-        </ul>
-    <h2>Estrutura básica de um HTML</h2>
-    <figure>
-        <img src="img/inicio.png.png" alt="inicio" width="500" height="333">
-    </figure>
+    <header>
+        <nav>
+            <h1 class="titulos">Introdução do HTML</h1>
+        </nav>
+    </header>
+	<div class="container">
+        <div>
+        	    <p>HTML é a linguagem de marcação padrão para criar paginas da web.</p>
+                <p>Saiba mais sobre HTML <a href="https://www.w3schools.com/html/default.asp">aqui!</a></p>
+        	   <h2 class="titulos">O que é</h2>
+                <ul>
+                    <li>HTML significa Hyper Text Markup Language</li>
+                    <li>HTML é a linguagem de marcação padrão para a criação de páginas da web</li>
+                    <li>HTML descreve a estrutura de uma página da web</li>
+                    <li>HTML consiste em uma série de elementos</li>
+                    <li>Os elementos HTML informam ao navegador como exibir o conteúdo</li>
+                    <li>Os elementos HTML identificam partes de conteúdo como "isto é um título", "isto é um parágrafo", "isto é um link", etc.</li>
+                </ul>
+                <h2 class="titulos">Estrutura básica de um HTML</h2>
+                <figure>
+                    <img src="img/inicio.png.png" alt="inicio">
+                </figure>
+        </div>    
+        <div>    
+                <h2 class="titulos">Introdução ao CSS</h2>
+                    <p>Como ja vimos anteriormente, as CSS são as Cascading Style Sheets (Folhas de Estilo de Cascata). Elas são usadas para configura um resultado visual dos elementos HTML. As configurações das CSS são realizados através dos seletores. Vamos ver a anatomia de um seletor. </p> 
+                <h2 class="titulos">Tipos de CSS</h2>
+                    <ul>
+                    	<li style="color: ">Inline - usando o styleatributo dentro dos elementos HTML</li>
+                        <li>Interno - usando um style elemento na head seção</li>
+                        <li>Externo - usando um link elemento para vincular a um arquivo CSS externo</li>
+                    </ul>
 
-    <h2>Introdução ao CSS</h2>
-        <p>Como ja vimos anteriormente, as CSS são as Cascading Style Sheets (Folhas de Estilo de Cascata). Elas são usadas para configura um resultado visual dos elementos HTML. As configurações das CSS são realizados através dos seletores. Vamos ver a anatomia de um seletor. </p> 
-    <h2>Tipos de CSS</h2>
-        <ul>
-        	<li style="color: ">Inline - usando o styleatributo dentro dos elementos HTML</li>
-            <li>Interno - usando um style elemento na head seção</li>
-            <li>Externo - usando um link elemento para vincular a um arquivo CSS externo</li>
-        </ul>
+                    <h2 class="titulos">Conheça um pouco mais sobre Javascript</h2>
+                    <p  class="titulos"><a href="Javascript.html">Clique aqui para conhecer!</a></p>
+        </div>
+    </div>
+    <footer>
+        <p class="titulos">Rodapé</p>
+    </footer>
 
 
-</body>
-</html>
+
+</body></html>
