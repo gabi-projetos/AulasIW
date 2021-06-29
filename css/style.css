@@ -1,17 +1,25 @@
-   body{
-        	background-image: url(../img/fundo.jpg);
-            background-repeat: round;
+    html{
+    scroll-behavior: smooth;
 
-        }
+
+  }
+
 
     .container{
-
         width: 80%;
         margin-right: auto;
         margin-left: auto;
+        position: relative;
+        margin-bottom: 10%;
     }    
         
-        header, footer{
+ 
+    body{
+
+            background-image: url(../img/fundo.jpg);
+            background-repeat: round;
+
+        }
             background-color: rgba(165,42,42,0.7);
             padding: 3%;
             position: relative;
@@ -70,9 +78,9 @@
             text-align: center;
         }
 
-    .imgtexto {
-            border: 5px dashed #008B8B;
-            width: 80%;
+    .imgtexto{
+             border: 5px dashed #008B8B;
+             width: 80%;
         }
 
  a:link {
@@ -117,3 +125,7 @@ a:active {
             background-color: #A52A2A;
         }
 
+ /* quando tela for maior que 600px*/ 
+ @media screen and (min-width: 600px) {
+
+ }
