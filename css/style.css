@@ -34,11 +34,29 @@
     }
     }
 
+/* telas maiores que 768px */
 @media only screen and (max-width: 768px) {
         .cotainer{
-        margin-top:20%;     
-    }
-    
+        margin-top:20%; }
+
+        header{
+           background-color: rgba(165,42,42,0.3);
+           flex-direction: row;
+           position: relative;   
+       }
+
+       .menu-opcoes{
+
+           position: absolute;
+           right: 5%;
+           top: 45%;
+       }    
+       
+       .menu-opoes ul li{
+
+           display: inline;
+           margin-left: 10px;
+       }
 }
     header, footer{
             background-color: rgba(165,42,42);
@@ -49,7 +67,14 @@
             align-items: center;
             font-size: 1.5em;
             line-height: 1.5;
+        
         }
+
+        .menu-opçoes{
+            text-align: center;
+        }
+
+
         .fixo{
 
             position: fixed;
@@ -120,6 +145,28 @@
              border: 5px dashed #008B8B;
              width: 70%;
         }
+    
+     .fundo{
+        background: #fff;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 3%;
+        font-size: 1.2em;
+     
+     }
+     
+     .distancia{
+        margin-top: 2%;
+        margin-bottom: 2%;
+     }
+     
+     input[type=text], select {
+         width: 80%;
+         padding: 12px 20px;
+         display: inline-block;
+         border: 1px solid #ccc;
+     }
 
  a:link {
   color: blue;
@@ -163,7 +210,4 @@ a:active {
             background-color: #A52A2A;
         }
 
- /* quando tela for maior que 600px*/ 
- @media screen and (min-width: 600px) {
-
- }
+ 
